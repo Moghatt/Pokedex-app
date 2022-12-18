@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pokemon</title>
+  <script src="/js/components/pokemon_list.js"></script>
+  <script defer src="/js/components/sign_up.js"></script>
+  <script defer src="/js/components/login.js"></script>
+  <script src="/js/initialize.js"></script>
+  <script src="./js/components/add_favourite.js"></script>
+  <script src="./js/components/navBar.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> -->
+  <!-- <link rel="stylesheet" href="index.css"> -->
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/pokemon.css">
+
+  <link rel="stylesheet" href="./css/signup.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <audio controls>
+      <source src="./song.mp3" type="audio/mpeg">
+    </audio>
+    <span class="title"><img src='https://archives.bulbagarden.net/media/upload/4/4b/Pok%C3%A9dex_logo.png'></span>
+    <div class="trainerCard">
+      <div class="userName"></div>
+      <p class="trainerID"><p> 
+      <button onClick="lockIn()" class="lockin">Lock In</button>
+      <div class="avatar"></div>
+      <div class="favPokemonContainer">
+        <div class="favouritePokemon" id="favourite1"></div>
+        <!-- <div class="favouritePokemon" id="favourite2"></div>
+        <div class="favouritePokemon" id="favourite3"></div>
+        <div class="favouritePokemon" id="favourite4"></div>
+        <div class="favouritePokemon" id="favourite5"></div>
+        <div class="favouritePokemon" id="favourite6"></div> -->
+      </div>
+    </div>
+  </header>
+
+
+  <div class="navBar">
+
+  </div>
+  <div id="showLoginSignup"></div>
+  <main id="page" class="content"></main>
+  <div id="container">
+    <div id="poke-container" class="ui-cards">
+    </div>
+  </div>
+  <div class="vid">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BoZ0Zwab6Oc" frameborder="0"
+    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/shUkq1sfSyU" title="Pokemon Emerald Opening" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UCgLQc3ODpY" frameborder="0"
+  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</body>
+
+</html>
